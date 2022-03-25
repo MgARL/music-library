@@ -11,7 +11,6 @@ import LoadingSpinner from './components/LoadingSpinner'
 
 function App(){
     let [searchTerm, setSearchTerm] = useState('')
-    let [message, setMessage] = useState('Search for Music!')
     let [data, setData] = useState(null)
     let searchInput = useRef('')
 
